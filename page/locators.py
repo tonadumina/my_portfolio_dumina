@@ -1,7 +1,7 @@
 import os
 
-from tona_project.page.base_page import WebPage
-from tona_project.page.elements import WebElement
+from page.base_page import WebPage
+from page.elements import WebElement
 
 
 class MainPage(WebPage):
@@ -27,6 +27,8 @@ class MainPage(WebPage):
     btn_headers_lifestyle_and_travel = WebElement(xpath='//*[@id="nvcat1840004v-button"]')
     btn_headers_services = WebElement(xpath='//*[@id="nvcat3330002v-button"]')
     btn_headers_world_louis_vuitton = WebElement(xpath='//*[@href="/rus-ru/magazine"]/span')
+    btn_headers_headerSearchButton = WebElement(id="headerSearchButton")
+    btn_headers_searchHeaderInput = WebElement(id="searchHeaderInput")
 
     # footers
     btn_footer_questions = WebElement(xpath='//*[@href="/rus-ru/faq" and contains(text(),"Часто задаваемые вопросы")]')
