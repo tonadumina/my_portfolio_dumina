@@ -28,14 +28,19 @@ class MainPage(WebPage):
     btn_headers_services = WebElement(xpath='//*[@id="nvcat3330002v-button"]')
     btn_headers_world_louis_vuitton = WebElement(xpath='//*[@href="/rus-ru/magazine"]/span')
 
-    #footers
+    # footers
     btn_footer_questions = WebElement(xpath='//*[@href="/rus-ru/faq" and contains(text(),"Часто задаваемые вопросы")]')
+    btn_footer_product_care = WebElement(xpath='//*[@href="/rus-ru/care-service" and contains(text(),"Уход за изделиями")]')
     btn_footer_shops = WebElement(xpath='//*[@href="/rus-ru/stores" and contains(text(),"Магазины")]')
     btn_footer_delivery_and_returns = WebElement(xpath='//*[@href="/rus-ru/faq" and contains(text(),"Условия доставки и возврата")]')
     btn_footer_product_repair = WebElement(xpath='//*[@href="/rus-ru/care-service" and contains(text()," Ремонт изделий")]')
-    btn_footer_personalization = WebElement(xpath='')
-
-
-
-
-
+    btn_footer_personalization = WebElement(xpath='//*[@href="/rus-ru/stories/personalization" and contains(text(),"Персонализация")]')
+    btn_footer_give_gifts = WebElement(xpath='//*[@href="/rus-ru/stories/gifting" and contains(text(),"Искусство дарить подарки")]')
+    btn_footer_fashion = WebElement(xpath='//*[@href="/rus-ru/magazine/fashion-shows" and contains(text(),"Мода")]')
+    btn_footer_arts_and_culture = WebElement(xpath='//*[@href="/rus-ru/magazine/arts-and-culture" and contains(text(),"Искусство и культура")]')
+    btn_footer_home_louis_vuitton = WebElement(xpath='//*[@href="/rus-ru/magazine/la-maison" and contains(text(),"Дом Louis Vuitton")]')
+    btn_footer_sustainable_development = WebElement(xpath='//*[@href="/rus-ru/magazine/sustainability" and contains(text(),"Устойчивое развитие")]')
+    btn_footer_last_news = WebElement(xpath='//*[@href="/rus-ru/magazine" and contains(text(),"Последние новости")]')
+    btn_footer_vacancies = WebElement(xpath='//*[@href="https://jobs.louisvuitton.com/en" and contains(text(),"Вакансии")]')
+    btn_footer_fund_louis_vuitton = WebElement(xpath='//*[@href="https://www.fondationlouisvuitton.fr/en" and contains(text(),"Фонд Louis Vuitton")]')
+    btn_footer_register = WebElement(xpath='//*[@href="#newslettersubscription" and contains(text(),"Зарегистрируйтесь")]')
